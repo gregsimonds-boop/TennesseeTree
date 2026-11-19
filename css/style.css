@@ -96,3 +96,7 @@
 @media(max-width:991px){.navbar .logo-brand{width:225px!important}.navbar .nav-links{gap:16px}.navbar .nav-links a{font-size:10px}}
 @media(max-width:767px){.navbar .logo-brand{width:185px!important;max-width:45vw!important}.navbar .container-fluid{gap:10px;padding-left:16px!important;padding-right:16px!important}.navbar .nav-cta{font-size:11px;padding:10px 9px}.navbar .logo-brand img{max-height:64px!important}footer .logo-brand{width:260px!important}}
 @media(max-width:359px){.navbar .logo-brand{width:155px!important}.navbar .nav-cta{font-size:10px;padding:9px 7px}}
+
+/* Show the full hero photo, below the fixed telephone and navigation bars. */
+.hero-sticky{background:#183629}.hero-image,.hero-image.second{inset:155px 0 0;width:100%;height:calc(100% - 155px);object-fit:contain;object-position:center center;transform:none!important}.hero-sticky:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#10271dee,#18362980),url('../assets/trees-around-tennessee-home.webp') center/cover;filter:blur(15px);transform:scale(1.05)}
+@media(max-width:767px){.hero-image,.hero-image.second{inset:148px 0 0;height:calc(100% - 148px)}.hero-content{bottom:11%}.hero-shade{background:linear-gradient(0deg,rgba(8,23,16,.86),rgba(8,23,16,.22) 65%)}}
